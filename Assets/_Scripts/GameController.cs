@@ -13,7 +13,7 @@ public class GameController : MonoBehaviour
 
 	//TEXT AND SCORE VARIABLES
 	public GUIText scoreText;
-	public GUIText restartText;
+	public GUIText restartText; 
 	public GUIText gameOverText;
 
 	//PRIVATE INSTANCE VARIABLES
@@ -36,7 +36,7 @@ public class GameController : MonoBehaviour
 		UpdateScore (); //calling this method
 		
 //		//Calling out the method: SpawnWaves() using Coroutine
-//		StartCoroutine (SpawnWaves ());
+		StartCoroutine (SpawnWaves ());
 	}
 
 	//UPDATES EVERY FRAME
