@@ -5,7 +5,7 @@ using System.Collections;
 public class ScoreManager : MonoBehaviour
 {
 	//PUBLIC INSTANCE VARIABLE
-	public static int score; //note: static = belongs to the class and not an instance of the class
+	public static int score; //NOTE: static = belongs to the class and not an instance of the class
 
 	//Text type to creat text object
 	private Text _scoreText;
